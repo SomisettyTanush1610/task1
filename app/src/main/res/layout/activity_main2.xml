@@ -49,9 +49,9 @@
 
     <TextView
         android:id="@+id/tvL1"
-        android:layout_width="60dp"
-        android:layout_height="50dp"
-        android:background="@drawable/g1"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:background="@drawable/roundedcor"
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textColor="#4F950A"
@@ -66,9 +66,9 @@
 
     <TextView
         android:id="@+id/tvL4"
-        android:layout_width="60dp"
-        android:layout_height="50dp"
-        android:background="@drawable/g1"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:background="@drawable/roundedcor"
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textColor="#4F9F0A"
@@ -83,9 +83,9 @@
 
     <TextView
         android:id="@+id/tvL16"
-        android:layout_width="60dp"
-        android:layout_height="50dp"
-        android:background="@drawable/g1"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:background="@drawable/roundedcor"
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textColor="#4F950A"
@@ -100,9 +100,9 @@
 
     <TextView
         android:id="@+id/tvL3"
-        android:layout_width="60dp"
-        android:layout_height="50dp"
-        android:background="@drawable/g1"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:background="@drawable/roundedcor"
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textColor="#4F950A"
@@ -117,9 +117,9 @@
 
     <TextView
         android:id="@+id/tvL15"
-        android:layout_width="60dp"
-        android:layout_height="50dp"
-        android:background="@drawable/g1"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:background="@drawable/roundedcor"
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textColor="#4F950A"
@@ -134,9 +134,9 @@
 
     <TextView
         android:id="@+id/tvL14"
-        android:layout_width="60dp"
-        android:layout_height="50dp"
-        android:background="@drawable/g1"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:background="@drawable/roundedcor"
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textColor="#4F950A"
@@ -151,9 +151,9 @@
 
     <TextView
         android:id="@+id/tvL13"
-        android:layout_width="60dp"
-        android:layout_height="50dp"
-        android:background="@drawable/g1"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:background="@drawable/roundedcor"
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textColor="#4F950A"
@@ -168,9 +168,9 @@
 
     <TextView
         android:id="@+id/tvL12"
-        android:layout_width="60dp"
-        android:layout_height="50dp"
-        android:background="@drawable/g1"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:background="@drawable/roundedcor"
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textColor="#4F950A"
@@ -185,9 +185,9 @@
 
     <TextView
         android:id="@+id/tvL10"
-        android:layout_width="60dp"
-        android:layout_height="50dp"
-        android:background="@drawable/g1"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:background="@drawable/roundedcor"
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textColor="#4F950A"
@@ -202,9 +202,9 @@
 
     <TextView
         android:id="@+id/tvL11"
-        android:layout_width="60dp"
-        android:layout_height="50dp"
-        android:background="@drawable/g1"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:background="@drawable/roundedcor"
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textColor="#4F950A"
@@ -219,9 +219,9 @@
 
     <TextView
         android:id="@+id/tvL9"
-        android:layout_width="60dp"
-        android:layout_height="50dp"
-        android:background="@drawable/g1"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:background="@drawable/roundedcor"
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textColor="#4F950A"
@@ -236,9 +236,9 @@
 
     <TextView
         android:id="@+id/tvL6"
-        android:layout_width="60dp"
-        android:layout_height="50dp"
-        android:background="@drawable/g1"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:background="@drawable/roundedcor"
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textColor="#4F950A"
@@ -253,9 +253,9 @@
 
     <TextView
         android:id="@+id/tvL8"
-        android:layout_width="60dp"
-        android:layout_height="50dp"
-        android:background="@drawable/g1"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:background="@drawable/roundedcor"
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textColor="#4F950A"
@@ -270,9 +270,9 @@
 
     <TextView
         android:id="@+id/tvL5"
-        android:layout_width="60dp"
-        android:layout_height="50dp"
-        android:background="@drawable/g1"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:background="@drawable/roundedcor"
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textColor="#4F950A"
@@ -287,9 +287,9 @@
 
     <TextView
         android:id="@+id/tvL7"
-        android:layout_width="60dp"
-        android:layout_height="50dp"
-        android:background="@drawable/g1"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:background="@drawable/roundedcor"
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textColor="#4F950A"
@@ -304,9 +304,9 @@
 
     <TextView
         android:id="@+id/tvL2"
-        android:layout_width="60dp"
-        android:layout_height="50dp"
-        android:background="@drawable/g1"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:background="@drawable/roundedcor"
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textColor="#4F950A"
@@ -369,6 +369,19 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.036"
         app:srcCompat="@drawable/download" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#CF4A4A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.742"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.126"
+        app:srcCompat="@drawable/heart" />
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cvVictroy"

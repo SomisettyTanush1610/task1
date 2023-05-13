@@ -50,22 +50,22 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.775" />
+        app:layout_constraintVertical_bias="0.859" />
 
     <EditText
         android:id="@+id/etWord"
         android:layout_width="328dp"
         android:layout_height="51dp"
+        android:background="@drawable/roundedcor"
         android:ems="10"
-        android:hint="Enter a Word (16 characters max)"
         android:inputType="text"
         android:textAllCaps="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.506"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -101,8 +101,8 @@
         android:id="@+id/etClue"
         android:layout_width="328dp"
         android:layout_height="51dp"
+        android:background="@drawable/roundedcor"
         android:ems="10"
-        android:hint="Enter the Clue"
         android:inputType="text"
         android:textAllCaps="true"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -110,6 +110,40 @@
         app:layout_constraintHorizontal_bias="0.506"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.602" />
+        app:layout_constraintVertical_bias="0.679" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="109dp"
+        android:layout_height="48dp"
+        android:background="@drawable/t"
+        android:text="WORD"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#2D0391"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.834"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.427" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="109dp"
+        android:layout_height="48dp"
+        android:background="@drawable/t"
+        android:text="CLUE"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#2D0391"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.834"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.606" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -11,6 +11,7 @@ import android.view.View
 import android.widget.Button
 import android.widget.ImageButton
 import android.widget.ImageView
+import android.widget.RelativeLayout
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
@@ -65,7 +66,6 @@ class MainActivity2 : AppCompatActivity() {
         var name = ""
         var wordLength = word?.length
         val wl = wordLength
-        val hint = "$clue and number of letters is $wl"
         if (wordLength != null) {
             while (wordLength < 16) {
                 var rand = ('a'..'z').random()
@@ -112,7 +112,8 @@ class MainActivity2 : AppCompatActivity() {
                 var a = l1.text
                 name+=a
                 display.text=name
-                l1.visibility = View.INVISIBLE
+               l1.background = resources.getDrawable(R.drawable.t)
+                l1.setClickable(false)
 
             }
             l2.setOnClickListener {
@@ -123,7 +124,8 @@ class MainActivity2 : AppCompatActivity() {
                 var a = l2.text
                 name+=a
                 display.text=name
-                l2.visibility = View.INVISIBLE
+                l2.background = resources.getDrawable(R.drawable.t)
+                l2.setClickable(false)
 
             }
             l3.setOnClickListener {
@@ -134,7 +136,8 @@ class MainActivity2 : AppCompatActivity() {
                 var a = l3.text
                 name+=a
                 display.text=name
-                l3.visibility = View.INVISIBLE
+                l3.background = resources.getDrawable(R.drawable.t)
+                l3.setClickable(false)
 
             }
             l4.setOnClickListener {
@@ -145,7 +148,8 @@ class MainActivity2 : AppCompatActivity() {
                 var a = l4.text
                 name+=a
                 display.text=name
-                l4.visibility = View.INVISIBLE
+                l4.background = resources.getDrawable(R.drawable.t)
+                l4.setClickable(false)
 
             }
             l5.setOnClickListener {
@@ -156,7 +160,8 @@ class MainActivity2 : AppCompatActivity() {
                 var a = l5.text
                 name+=a
                 display.text=name
-                l5.visibility = View.INVISIBLE
+                l5.background = resources.getDrawable(R.drawable.t)
+                l5.setClickable(false)
 
             }
             l6.setOnClickListener {
@@ -167,7 +172,8 @@ class MainActivity2 : AppCompatActivity() {
                 var a = l6.text
                 name+=a
                 display.text=name
-                l6.visibility = View.INVISIBLE
+                l6.background = resources.getDrawable(R.drawable.t)
+                l6.setClickable(false)
 
             }
             l7.setOnClickListener {
@@ -178,7 +184,8 @@ class MainActivity2 : AppCompatActivity() {
                 var a = l7.text
                 name+=a
                 display.text=name
-                l7.visibility = View.INVISIBLE
+                l7.background = resources.getDrawable(R.drawable.t)
+                l7.setClickable(false)
 
             }
             l8.setOnClickListener {
@@ -189,7 +196,8 @@ class MainActivity2 : AppCompatActivity() {
                 var a = l8.text
                 name+=a
                 display.text=name
-                l8.visibility = View.INVISIBLE
+                l8.background = resources.getDrawable(R.drawable.t)
+                l8.setClickable(false)
 
             }
             l9.setOnClickListener {
@@ -200,7 +208,8 @@ class MainActivity2 : AppCompatActivity() {
                 var a = l9.text
                 name+=a
                 display.text=name
-                l9.visibility = View.INVISIBLE
+                l9.background = resources.getDrawable(R.drawable.t)
+                l9.setClickable(false)
 
             }
             l10.setOnClickListener {
@@ -211,7 +220,8 @@ class MainActivity2 : AppCompatActivity() {
                 var a = l10.text
                 name+=a
                 display.text=name
-                l10.visibility = View.INVISIBLE
+                l10.background = resources.getDrawable(R.drawable.t)
+                l10.setClickable(false)
 
             }
             l11.setOnClickListener {
@@ -222,7 +232,8 @@ class MainActivity2 : AppCompatActivity() {
                 var a = l11.text
                 name+=a
                 display.text=name
-                l11.visibility = View.INVISIBLE
+                l11.background = resources.getDrawable(R.drawable.t)
+                l11.setClickable(false)
 
             }
             l12.setOnClickListener {
@@ -233,7 +244,8 @@ class MainActivity2 : AppCompatActivity() {
                 var a = l12.text
                 name+=a
                 display.text=name
-                l12.visibility = View.INVISIBLE
+                l12.background = resources.getDrawable(R.drawable.t)
+                l12.setClickable(false)
 
             }
             l13.setOnClickListener {
@@ -244,8 +256,8 @@ class MainActivity2 : AppCompatActivity() {
                 var a = l13.text
                 name+=a
                 display.text=name
-                l13.visibility = View.INVISIBLE
-
+                l13.background = resources.getDrawable(R.drawable.t)
+                l13.setClickable(false)
             }
             l14.setOnClickListener {
                 if (mediaPlayer==null){
@@ -255,7 +267,8 @@ class MainActivity2 : AppCompatActivity() {
                 var a = l14.text
                 name+=a
                 display.text=name
-                l14.visibility = View.INVISIBLE
+                l14.background = resources.getDrawable(R.drawable.t)
+                l14.setClickable(false)
 
             }
             l15.setOnClickListener {
@@ -266,7 +279,8 @@ class MainActivity2 : AppCompatActivity() {
                 var a = l15.text
                 name+=a
                 display.text=name
-                l15.visibility = View.INVISIBLE
+                l15.background = resources.getDrawable(R.drawable.t)
+                l15.setClickable(false)
 
             }
             l16.setOnClickListener {
@@ -277,26 +291,43 @@ class MainActivity2 : AppCompatActivity() {
                 var a = l16.text
                 name+=a
                 display.text=name
-                l16.visibility = View.INVISIBLE
+                l16.background = resources.getDrawable(R.drawable.t)
+                l16.setClickable(false)
 
             }
             reset.setOnClickListener {
-                l1.visibility = View.VISIBLE
-                l2.visibility = View.VISIBLE
-                l3.visibility = View.VISIBLE
-                l4.visibility = View.VISIBLE
-                l5.visibility = View.VISIBLE
-                l6.visibility = View.VISIBLE
-                l7.visibility = View.VISIBLE
-                l8.visibility = View.VISIBLE
-                l9.visibility = View.VISIBLE
-                l10.visibility = View.VISIBLE
-                l11.visibility = View.VISIBLE
-                l12.visibility = View.VISIBLE
-                l13.visibility = View.VISIBLE
-                l14.visibility = View.VISIBLE
-                l15.visibility = View.VISIBLE
-                l16.visibility = View.VISIBLE
+                l1.setClickable(true)
+                l3.setClickable(true)
+                l2.setClickable(true)
+                l4.setClickable(true)
+                l5.setClickable(true)
+                l6.setClickable(true)
+                l7.setClickable(true)
+                l8.setClickable(true)
+                l9.setClickable(true)
+                l10.setClickable(true)
+                l11.setClickable(true)
+                l12.setClickable(true)
+                l13.setClickable(true)
+                l14.setClickable(true)
+                l15.setClickable(true)
+                l16.setClickable(true)
+                l10.background = resources.getDrawable(R.drawable.roundedcor)
+                l1.background = resources.getDrawable(R.drawable.roundedcor)
+                l2.background = resources.getDrawable(R.drawable.roundedcor)
+                l3.background = resources.getDrawable(R.drawable.roundedcor)
+                l4.background = resources.getDrawable(R.drawable.roundedcor)
+                l5.background = resources.getDrawable(R.drawable.roundedcor)
+                l6.background = resources.getDrawable(R.drawable.roundedcor)
+                l7.background = resources.getDrawable(R.drawable.roundedcor)
+                l8.background = resources.getDrawable(R.drawable.roundedcor)
+                l9.background = resources.getDrawable(R.drawable.roundedcor)
+                l11.background = resources.getDrawable(R.drawable.roundedcor)
+                l12.background = resources.getDrawable(R.drawable.roundedcor)
+                l15.background = resources.getDrawable(R.drawable.roundedcor)
+                l13.background = resources.getDrawable(R.drawable.roundedcor)
+                l14.background = resources.getDrawable(R.drawable.roundedcor)
+                l16.background = resources.getDrawable(R.drawable.roundedcor)
                 display.text=""
                 name = ""
                 Toast.makeText(
@@ -349,22 +380,38 @@ class MainActivity2 : AppCompatActivity() {
                    }
 
                    if (toBeGuessed != display.text) {
-                       l1.visibility = View.VISIBLE
-                       l2.visibility = View.VISIBLE
-                       l3.visibility = View.VISIBLE
-                       l4.visibility = View.VISIBLE
-                       l5.visibility = View.VISIBLE
-                       l6.visibility = View.VISIBLE
-                       l7.visibility = View.VISIBLE
-                       l8.visibility = View.VISIBLE
-                       l9.visibility = View.VISIBLE
-                       l10.visibility = View.VISIBLE
-                       l11.visibility = View.VISIBLE
-                       l12.visibility = View.VISIBLE
-                       l13.visibility = View.VISIBLE
-                       l14.visibility = View.VISIBLE
-                       l15.visibility = View.VISIBLE
-                       l16.visibility = View.VISIBLE
+                       l1.setClickable(true)
+                       l3.setClickable(true)
+                       l2.setClickable(true)
+                       l4.setClickable(true)
+                       l5.setClickable(true)
+                       l6.setClickable(true)
+                       l7.setClickable(true)
+                       l8.setClickable(true)
+                       l9.setClickable(true)
+                       l10.setClickable(true)
+                       l11.setClickable(true)
+                       l12.setClickable(true)
+                       l13.setClickable(true)
+                       l14.setClickable(true)
+                       l15.setClickable(true)
+                       l16.setClickable(true)
+                       l10.background = resources.getDrawable(R.drawable.roundedcor)
+                       l1.background = resources.getDrawable(R.drawable.roundedcor)
+                       l2.background = resources.getDrawable(R.drawable.roundedcor)
+                       l3.background = resources.getDrawable(R.drawable.roundedcor)
+                       l4.background = resources.getDrawable(R.drawable.roundedcor)
+                       l5.background = resources.getDrawable(R.drawable.roundedcor)
+                       l6.background = resources.getDrawable(R.drawable.roundedcor)
+                       l7.background = resources.getDrawable(R.drawable.roundedcor)
+                       l8.background = resources.getDrawable(R.drawable.roundedcor)
+                       l9.background = resources.getDrawable(R.drawable.roundedcor)
+                       l11.background = resources.getDrawable(R.drawable.roundedcor)
+                       l12.background = resources.getDrawable(R.drawable.roundedcor)
+                       l15.background = resources.getDrawable(R.drawable.roundedcor)
+                       l13.background = resources.getDrawable(R.drawable.roundedcor)
+                       l14.background = resources.getDrawable(R.drawable.roundedcor)
+                       l16.background = resources.getDrawable(R.drawable.roundedcor)
                        name = ""
                        display.text = ""
                        --countOfHeart
@@ -388,7 +435,7 @@ class MainActivity2 : AppCompatActivity() {
                        l16.text = word!!.get(15).toString()
                        name  = ""
                        if (countOfHeart < 3) {
-                           h2.visibility = View.INVISIBLE
+                           h2.setImageResource(R.drawable.l)
                            mediaPlayer = null
                            if (mediaPlayer == null) {
                                mediaPlayer = MediaPlayer.create(this, R.raw.go)
@@ -396,7 +443,7 @@ class MainActivity2 : AppCompatActivity() {
                            mediaPlayer?.start()
                        }
                        if (countOfHeart < 2) {
-                           h3.visibility = View.INVISIBLE
+                           h3.setImageResource(R.drawable.l)
                            mediaPlayer = null
                            if (mediaPlayer == null) {
                                mediaPlayer = MediaPlayer.create(this, R.raw.go)
@@ -404,7 +451,7 @@ class MainActivity2 : AppCompatActivity() {
                            mediaPlayer?.start()
                        }
                        if (countOfHeart < 1) {
-                           h1.visibility = View.INVISIBLE
+                           h1.setImageResource(R.drawable.l)
                            mediaPlayer = null
                            if (mediaPlayer == null) {
                                mediaPlayer = MediaPlayer.create(this, R.raw.go)
