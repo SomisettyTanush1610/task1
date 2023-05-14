@@ -114,8 +114,8 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="109dp"
-        android:layout_height="48dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:background="@drawable/t"
         android:text="WORD"
         android:textAlignment="center"
@@ -131,8 +131,8 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="109dp"
-        android:layout_height="48dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:background="@drawable/t"
         android:text="CLUE"
         android:textAlignment="center"
