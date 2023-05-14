@@ -338,7 +338,6 @@ class MainActivity2 : AppCompatActivity() {
             }
 
             check.setOnClickListener {
-               if (display.text.length == wl) {
                    if (toBeGuessed == display.text) {
                        cvv.visibility = View.VISIBLE
                        l1.setClickable(false)
@@ -368,7 +367,7 @@ class MainActivity2 : AppCompatActivity() {
                            val intent = Intent(this, MainActivity::class.java)
                            startActivity(intent)
                        }
-                       val temp = calScore(countOfHeart,wl)
+                       val temp = calScore(countOfHeart, wl!!)
                        successScore.text = "SCORE : $temp"
                        if (temp > hs){
                            editor.apply{
@@ -494,17 +493,11 @@ class MainActivity2 : AppCompatActivity() {
                            val intent = Intent(this, MainActivity::class.java)
                            startActivity(intent)
                        }
-                       val temp = calScore(countOfHeart,wl)
+                       val temp = calScore(countOfHeart, wl!!)
                        defeatScore.text = "SCORE : $temp"
                    }
-               }
-                else{
-                   Toast.makeText(
-                       this@MainActivity2,
-                       "NUMBER OF LETTERS NOT MATCHING",
-                       Toast.LENGTH_SHORT
-                   ).show()
-               }
+
+
             }
 
 

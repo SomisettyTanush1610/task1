@@ -41,8 +41,8 @@
 
     <Button
         android:id="@+id/btn"
-        android:layout_width="132dp"
-        android:layout_height="70dp"
+        android:layout_width="154dp"
+        android:layout_height="61dp"
         android:backgroundTint="#7B1FA2"
         android:fontFamily="sans-serif"
         android:text="START"
